@@ -1,0 +1,17 @@
+.full_column{
+	width:940px;
+	background-color: red;
+}
+.resetFloatStartNewRow{clear:left;}
+.oneHalfColumn,.oneThirdColumn,.twoThirdColumn,.full_column{
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 20px;
+float:left;
+top:0px;
+left:0px;
+}
+.oneHalfColumn{width:460;}
+.oneThirdColumn{width:300px;}
+.twoThirdColumn{width: 620px;}
